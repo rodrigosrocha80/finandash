@@ -248,7 +248,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---- SIDEBAR ----
-st.sidebar.title("⚙️ Pipeline Analítico")
+st.sidebar.title("⚙️ Dashboard Financeiro")
 arquivo_csv = st.sidebar.file_uploader(
     "Upload do Extrato de Contas Pagas (CSV)",
     type=['csv'],
