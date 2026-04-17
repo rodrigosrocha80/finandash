@@ -215,8 +215,8 @@ class GeradorDeInsights:
 # 5. INTERFACE GRÁFICA
 # ==========================================
 st.set_page_config(
-    page_title="Dashboard Financeiro | Contas Pagas",
-    page_icon="💰",
+    page_title="Business Intelligence Financeiro | Realizado",
+    page_icon="✅",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -248,7 +248,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---- SIDEBAR ----
-st.sidebar.title("⚙️ Dashboard Financeiro")
+st.sidebar.title("💡 B.I. Financeiro")
 arquivo_csv = st.sidebar.file_uploader(
     "Upload do Extrato de Contas Pagas (CSV)",
     type=['csv'],
