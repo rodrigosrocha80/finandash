@@ -24,7 +24,7 @@ schema_financeiro = pa.DataFrameSchema({
 }, coerce=True)
 
 # ==========================================
-# 2. CAMADA DE SERVIÇOS (ETL & CLEANING)
+# 2. CAMADA DE SERVIÇOS (ETL & CLEANING) -
 # ==========================================
 # FIX CRÍTICO: O CSV do Sienge repete Valor Líquido em cada linha de rateio.
 # Um título rateado em N centros de custo gera N linhas com o mesmo Valor Líquido,
