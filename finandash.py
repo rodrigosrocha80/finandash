@@ -506,7 +506,7 @@ with col_logo:
     elif os.path.exists("logo.jpg"):
         st.image("logo.jpg", width=80)
 with col_title:
-    st.title("💰 Gestão Executiva de Desembolso")
+    st.title("BI Financeiro | Contas Pagas")
 
 st.markdown(f"""<div class="banner">
     <div><div class="banner-sub">Período analisado</div>
