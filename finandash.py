@@ -497,7 +497,16 @@ d_tk = delta_pct(tk_at, tk_an)
 # ==========================================
 # LAYOUT
 # ==========================================
-st.title("💰 Gestão Executiva de Desembolso")
+import os
+
+col_logo, col_title = st.columns([1, 8])
+with col_logo:
+    if os.path.exists("logo.png"):
+        st.image("logo.png", width=80)
+    elif os.path.exists("logo.jpg"):
+        st.image("logo.jpg", width=80)
+with col_title:
+    st.title("💰 Gestão Executiva de Desembolso")
 
 st.markdown(f"""<div class="banner">
     <div><div class="banner-sub">Período analisado</div>
